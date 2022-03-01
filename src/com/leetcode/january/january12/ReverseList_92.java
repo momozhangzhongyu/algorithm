@@ -1,4 +1,4 @@
-package com.leetcode.january12;
+package com.leetcode.january.january12;
 
 public class ReverseList_92 {
 
