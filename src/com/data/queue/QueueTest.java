@@ -3,7 +3,9 @@ package com.data.queue;
 public class QueueTest {
     public static void main(String[] args) {
 //        ArrayQueue<Integer> queue = new ArrayQueue<>();
-        LoopQueue<Integer> queue = new LoopQueue<>();
+//        LoopQueue<Integer> queue = new LoopQueue<>();
+//        LinkListQueue<Integer> queue = new LinkListQueue<>();
+        LinkQueue<Integer> queue = new LinkQueue<>();
         for(int i = 0; i < 10; i++)
             queue.enqueue(i);
         System.out.println(queue);
